@@ -1,0 +1,176 @@
+body {
+    color: white;
+}
+
+section {
+    height: 100vh;
+    left: 0vh;
+    text-align: center;
+    margin-left: -2%;
+    margin-right: -0.4%;
+}
+
+footer {
+    background-color: rgb(48,56,65);
+    text-align: center;
+    margin-top: 0.9%;
+    margin-left: 0%;
+    margin-right: -0.4%;
+    margin-left: -2%;
+    margin-bottom: -1%;
+    height: 90px;
+    font-size: 0.6cm;
+}
+
+footer p a {
+    text-decoration: none;
+    color: white;
+}
+
+#left {
+    float: left;
+    margin-left: 15%;
+    color: white;
+    text-decoration: none;
+}
+
+#right {
+    float: right;
+    margin-right: 15%;
+}
+
+#navbar {
+    background-color: rgb(190,49,68);
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    left: 0;
+}
+
+#navbar ul {
+    list-style:none;
+}
+
+#navbar li {
+    float: right;
+    margin-right: 3%;
+}
+
+#navbar li a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#welcome-section {
+    background-color: rgb(47,49,52);
+    margin-top: 70px;
+    line-height: 7px;
+    margin-bottom: -2.5%;
+}
+
+#welcome-section h1 {
+    padding-top: 20%;
+    font-size: 1.8cm;
+}
+
+#welcome-section p {
+    font-size: 1.2cm;
+}
+
+#projects {
+    background-color: rgb(69,86,125);
+    margin-bottom: -3%;
+}
+
+#projects h1 {
+    padding-top: 5%;
+    font-size: 1.3cm;
+}
+
+#projects h1 > span {
+    border-bottom: 2px solid white;
+}
+
+#projects a p {
+    background-color: rgb(48,56,65);
+    text-decoration: none;
+    margin-top: -3.5px;
+    line-height: 3;
+    color: white;
+    width: 300px;
+    height: 50px;
+}
+
+#contatos {
+    margin-top: 4%;
+}
+
+.contatos {
+    text-decoration: none;
+    color: white;
+    margin-left: 5%;
+    font-size: 150%;
+    margin-right: 5%;
+    position:relative
+}
+
+.contatos:hover {
+    color: blue;
+    top: 5px;
+}
+
+#projects button {
+    background-color: rgb(48,56,65);
+    color: white;
+    width: 150px;
+    height: 50px;
+    font-size: 0.7cm;
+    margin-top: 500px;
+    margin-left: -1540px;
+}
+
+.left {
+    float:left; 
+    margin-left:450px; 
+    margin-right:10px; 
+    margin-bottom:5px;
+}
+
+.center {
+    float: left;
+    margin-left: 80px;
+    margin-right:450px;
+}
+
+.right {
+    float:left;
+    margin-left: -350px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+#center {
+    height: 100px;
+    margin-top: 200px;    
+}
+
+#contact {
+    background-color: rgb(48,56,65);
+    border-bottom: 5px solid red;
+    line-height: 5px;
+    margin-bottom: -0.9%;
+}
+
+#contact h1 {
+    padding-top: 20%;
+    font-size: 1.8cm;
+}
+
+#contact p {
+    font-size: 0.5cm;
+}
